@@ -1,32 +1,39 @@
 // #region Import
 import { Given, When, And, Then } from "@badeball/cypress-cucumber-preprocessor";
-import HomePage from "../pages/HomePage";
-
+import CarbonFootprintCalculatorPage from "../pages/CarbonFootprintCalculatorPage"
 // #endregion
 
 // #region Constants
-const homePage = new HomePage()
-
+//const carbonFootprintCalculatorPage = new CarbonFootprintCalculatorPage()
 // #endregion
 
 // #region Given
-Given('I visited home page', () => {
-    cy.visit("/")   
-})
 
 // #endregion
 
 // #region And
-Given('access the calculator successfully', () => {
-    cy.fillDataHome()
+And('', () => {
+    
 })
+
+And('', () => {
+
+})
+
 
 // #endregion
 
 // #region When
+When('', () => {
+
+})
 
 // #endregion
 
 // #region Then
+Then('', () => {
+
+    
+})
 
 // #endregion
