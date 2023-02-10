@@ -37,3 +37,10 @@ To generate test reports, run the command:
   allure serve
 ```
 
+
+## Technologies 💻
+
+- [Node.js](https://nodejs.org/en/)
+- [Cypress](https://www.cypress.io)
+- [Cucumber](https://cucumber.io)
+- [Allure Report](https://qameta.io/allure-report/)
