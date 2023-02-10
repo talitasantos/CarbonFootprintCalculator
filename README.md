@@ -25,6 +25,12 @@ Run the tests:
 ```
 ## Allure Report 📊
 
+Install allure dependencies:
+
+```bash
+  npm install -g allure-commandline --save-dev
+```
+
 To generate test reports, run the command:
 
 ```bash
