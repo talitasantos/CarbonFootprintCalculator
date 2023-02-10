@@ -8,21 +8,21 @@ Feature: Carbon Footprint Calculator
     Background: Visit home page
         Given I visited home page
 
-    @focus
+    @regression
     Scenario: Access the calculator successfully
         And I fill number of people in household
         And fill valid zip code
         When click get started
         Then system returns calculator page
 
-    @focus
+    @regression
     Scenario: Enter an invalid zip code
         And I fill number of people in household
         And fill invalid zip code
         When click get started
         Then system returns please please enter a valid five-digit ZIP Code message
 
-    @focus
+    @regression
     Scenario: Enter a invalid number of people in household
         And fill valid zip code
         And fill invalid number of people in household
