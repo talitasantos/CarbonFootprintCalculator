@@ -4,8 +4,8 @@ const locators = {
     PRIMARY_HEATING_SOURCE_SELECT: `[id="primaryHeatingSource"]`,
     NATUAL_GAS_INPUT: `[id="naturalGasTextInput"]`,
     NATUAL_GAS_SELECT: `[id="naturalGasSelectInput"]`,
-    ELETRICY_IPUNT: `[id="electricityTextInput"]`,
-    ELETRICY_SELECT: `[id="electricitySelectInput"]`,
+    ELECTRICY_IPUNT: `[id="electricityTextInput"]`,
+    ELECTRICY_SELECT: `[id="electricitySelectInput"]`,
     FUEL_INPUT: `[id="fuelTextInput"]`,
     FUEL_SELECT: `[id="fuelSelectInput"]`,
     PROPANE_INPUT: `[id="propaneTextInput"]`,
@@ -16,6 +16,9 @@ const locators = {
     POWER_MANAGMENT_SELECT: `[id="pwrMgmtSelect"]`,
     INCREAD_POWER_USAGE: `[id="increaseGreenInput"]`,
     REFRIGERATOR_SELECT: `[id="coldWaterSelect"]`,
+    LOADS_PER_WEEK: `[id="loadsPerWeek"]`,
+    AIR_DRY_SELECT: `[id="AirDrySelect"]`,
+    AIR_PERCENTAGE_AIR_DRY_SELECT: `[id="percentageAirDrySelect"]`,
     FURNACE_SELECT: `[id="furnaceSelect"]`,
     WINDOM_SELECT: `[id="windowSelect"]`,
     GO_TO_TRANSPORTATION_BUTTON: `[id="to-transportation"]`,
@@ -41,7 +44,8 @@ const locators = {
     MAGAZINES_REDUCE_CHECKBOK: `input[type="checkbox"][id="magazinesCheckboxR"]`,
     CONTINUE_TO_REPORT_BUTTPN: `[id="to-report"]`,
 
-    PRINT_ICON_BUTTON: `[id="printicon"]`
+    PRINT_ICON_BUTTON: `[id="printicon"]`,
+    PAGE_TITLE: `[class="page-title"]`,
 
 
 }

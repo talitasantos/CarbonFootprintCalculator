@@ -14,11 +14,11 @@ import homeMessages from '../messages/HomeMessages'
 class HomePage {
 
     fillNumerOfPeopleInHousehold() {
-        cy.get(homeLoc.HOUSEHOLD_INPUT).type(homeModel.RANDMOM_NUMER_OF_PEOPLE)
+        cy.get(homeLoc.HOUSEHOLD_INPUT).type(homeModel.RANDOM_NUMER_OF_PEOPLE)
     }
 
     fillZipCode() {
-        cy.get(homeLoc.ZIPCODE_INPUT).type(homeModel.RANDOM_ZIP_CODE)
+        cy.get(homeLoc.ZIPCODE_INPUT).type(homeModel.VALID_ZIP_CODE)
 
     }
 
@@ -33,6 +33,7 @@ class HomePage {
 
     clickGetStarted() {
         cy.get(homeLoc.GET_STARTED_BUTTON).click()
+
     }
 
     validateCalculatorPage() {
