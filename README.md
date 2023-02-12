@@ -21,7 +21,7 @@ Install the dependencies:
 
 Run the tests:
 ```bash
-  npm run test:regressivo:chrome
+  npm run test:regressive:chrome
 ```
 ## Allure Report 📊
 
