@@ -1,7 +1,7 @@
 
 # Carbon Footprint Calculator Automation Project 🌱
 
-Project for the automation of test scenarios raised for the [EPA'sCarbon Footprint Calculator](https://www3.epa.gov/carbon-footprint-calculator/).
+Project for the automation of test scenarios raised for the [EPA's Carbon Footprint Calculator](https://www3.epa.gov/carbon-footprint-calculator/).
 
 The calculator estimates your footprint in three areas: home energy, transportation and waste. Everyone's carbon footprint is different depending on their location, habits, and personal choices.
 
