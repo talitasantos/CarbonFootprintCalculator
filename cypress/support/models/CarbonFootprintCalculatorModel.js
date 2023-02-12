@@ -17,6 +17,10 @@ const CarbonFootprintCalculatorModel = {
     "GREEN_POWER": faker.random.numeric(1, 10),
     "COLD_WATER": faker.random.numeric(1, 10),
     "LOADS_PER_WEEK": faker.random.numeric(1, 10),
+    "VEHICLE_MILES": "12000",
+    "GALES_MILES": "24000",
+    "REDUCE_MILES": "100",
+    "REPLACE_VEHICLE": "1000",
 
 }
 

@@ -15,6 +15,7 @@ const locators = {
     NUMBER_OF_LIGHTS_INPUT: `[id="lightsToReplace"]`,
     POWER_MANAGMENT_SELECT: `[id="pwrMgmtSelect"]`,
     INCREAD_POWER_USAGE: `[id="increaseGreenInput"]`,
+    FRIDGE_SELECT:`[id="fridgeSelect"]`,
     REFRIGERATOR_SELECT: `[id="coldWaterSelect"]`,
     LOADS_PER_WEEK: `[id="loadsPerWeek"]`,
     AIR_DRY_SELECT: `[id="AirDrySelect"]`,
@@ -29,6 +30,8 @@ const locators = {
     MILES_INPUT: `[id="vehicle1Miles"]`,
     MILES_SELECT: `[id="vehicle1Select"]`,
     GALES_MILEAGE_INPUT: `[id="vehicle1GasMileage"]`,
+    REDUCE_MILES_INPUT:`[id="reduceMilesInput1"]`,
+    REPLACE_VEHICLE:`[id="replaceVehicleInput1"]`,
     GO_TO_WASTE_BUTTON: `[id="to-waste"]`,
 
     // WASTE TAB
@@ -42,7 +45,7 @@ const locators = {
     GLASS_REDUCE_CHECKBOK: `input[type="checkbox"][id="glassCheckboxR"]`,
     NEWSPAPER_REDUCE_CHECKBOK: `input[type="checkbox"][id="newspaperCheckboxR"]`,
     MAGAZINES_REDUCE_CHECKBOK: `input[type="checkbox"][id="magazinesCheckboxR"]`,
-    CONTINUE_TO_REPORT_BUTTPN: `[id="to-report"]`,
+    CONTINUE_TO_REPORT_BUTTON: `[id="to-report"]`,
 
     PRINT_ICON_BUTTON: `[id="printicon"]`,
     PAGE_TITLE: `[class="page-title"]`,

@@ -33,16 +33,36 @@ And('fill reduce your mission', () => {
     
 })
 
-And('', () => {
+And('fill vechicle informations', () => {
+    carbonFootprintCalculatorPage.fillCurrentMaintenance()
+    carbonFootprintCalculatorPage.fillVehicleMiles()
+    carbonFootprintCalculatorPage.fillAverageGasMileage()
+    carbonFootprintCalculatorPage.fillReduceMiles()
+    carbonFootprintCalculatorPage.fillReplaceVehicle()
 
 })
 
+And('fill waste informations', () => {
+    carbonFootprintCalculatorPage.checkProductsYouCurrentlyRecycle()
+    carbonFootprintCalculatorPage.checkProductsYouDoNotRecycle()
+
+})
 
 // #endregion
 
 // #region When
 When('click to continue to transportation', () => {
     carbonFootprintCalculatorPage.clickToContinueToTransportation()
+
+})
+
+When('click to continue to waste', () => {
+    carbonFootprintCalculatorPage.clickToContinueToWaste()
+
+})
+
+When('click to continue to report', () => {
+    carbonFootprintCalculatorPage.clickToContinueToReport()
 
 })
 
@@ -55,4 +75,14 @@ Then('sytem returns transportation tab', () => {
     
 })
 
+Then('sytem returns waste tab', () => {
+    carbonFootprintCalculatorPage.verifyWasteTab()
+    
+})
+
+
+Then('system returns household carbon footprint report', () => {
+    carbonFootprintCalculatorPage.verifyReportPage()
+    
+})
 // #endregion
